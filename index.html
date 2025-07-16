@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michele Bilko | Student and Developer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">~/michele-bilko</div>
+            <ul class="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#coursework">coursework</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>michele.bilko()</h1>
+            <p class="subtitle">
+                <span class="typing-effect">CS & Philosophy Student and Developer</span>
+            </p>
+            <a href="#projects" class="btn">view_projects()</a>
+            <a href="./resume.pdf" class="btn" download>download_resume()</a>
+        </div>
+    </section>
+        <section id="about" class="section">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="terminal-title">about_michele.py</div>
+            </div>
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div class="profile-container">
+                    <img src="./images/me.png" alt="Michele Bilko" class="profile-image">
+                </div>
+                <div class="code-block" data-lang="python">
+<span class="code-keyword">class</span> <span class="code-class">MicheleBilko</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(self):
+        self.name = <span class="code-string">"Michele Bilko"</span>
+        self.location = <span class="code-string">"Boston, MA"</span>
+        self.education = <span class="code-string">"UC Santa Cruz and Boston University"</span>
+        self.studying = <span class="code-string">"Computer Science & Philosophy"</span>
+        self.year = <span class="code-string">"Class of 2027"</span>
+        self.interests = [
+            <span class="code-string">"Algorithm Analysis"</span>,
+            <span class="code-string">"Full-Stack Development"</span>,
+            <span class="code-string">"Dynamic Programming"</span>,
+            <span class="code-string">"Philosophy"</span>
+        ]
+        
+    <span class="code-keyword">def</span> <span class="code-function">get_research</span>(self):
+        <span class="code-keyword">return</span> <span class="code-string">"NP-hardness in longest path algorithms"</span>
+        
+    <span class="code-keyword">def</span> <span class="code-function">when_not_coding</span>(self):
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"bouldering"</span>,
+            <span class="code-string">"reading Deleuze"</span>,
+            <span class="code-string">"eating oysters"</span>
+        ]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="terminal-title">skills.json</div>
+            </div>
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">Django</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Methodologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">TDD</span>
+                        <span class="skill-tag">Unit Testing</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="terminal-title">projects/</div>
+            </div>
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">theater-management-system/</div>
+                        <div class="project-subtitle">Senior Capstone Project</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Collaborative website for school theater group to organize and manage costumes and props. 
+                            Built using agile methodology with test-driven development, featuring secure OAuth login 
+                            and Google Sheets API integration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Google Sheets API</span>
+                            <span class="tech-tag">OAuth</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="https://github.com/michele-bilko/theater-organizer" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">columbia-finding-aid/</div>
+                        <div class="project-subtitle">Data Processing Tool</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Java and Python tool that transforms 20,000+ lines of unreadable CSV data into 
+                            well-formatted, searchable categories. Optimized using dynamic programming 
+                            (recursion + memoization) to handle large datasets efficiently.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">pandas</span>
+                            <span class="tech-tag">Dynamic Programming</span>
+                            <span class="tech-tag">CSV Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Details</a>
+                            <a href="https://github.com/MCAH" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">algorithm-research/</div>
+                        <div class="project-subtitle">Independent Study</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Ongoing research under Professor Dora Erdos focusing on NP-hardness problems 
+                            in longest path algorithms and algorithm development using dynamic programming 
+                            techniques. Contributing to academic understanding of computational complexity.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Algorithm Analysis</span>
+                            <span class="tech-tag">Dynamic Programming</span>
+                            <span class="tech-tag">NP-Hardness</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Research</a>
+                            <a href="#" class="project-link">Papers</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">CRG-route-tracker/</div>
+                        <div class="project-subtitle">Central Rock Gym Tracking App</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Route tracker created for the Central Rock Gym in Fenway. Users are 
+                            able to mark off climbs they've completed as well as make accounts 
+                            and see route progress. Admins of the rock gym can view statistics for 
+                            route completions and upload/create their own climbs. Currently in progress.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cs-webapps.bu.edu/mbilko/project/" class="project-link">Live Site</a>
+                            <a href="https://youtu.be/qlJ_-UIujbw" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="coursework" class="section">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="terminal-title">coursework.log</div>
+            </div>
+            <h2 class="section-title">Relevant Coursework</h2>
+            
+            <div class="coursework-grid">
+                <div class="course-item">
+                    <div class="course-header">
+                        <div class="course-code">CS 132</div>
+                        <div class="course-title">Geometric Algorithms</div>
+                    </div>
+                    <p class="course-description">
+                        Study of computational geometry algorithms for solving geometric problems in 2D and 3D spaces.
+                    </p>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/hub/courses/cas-cs-132/" class="course-link" target="_blank">Course Info</a>
+                    </div>
+                </div>
+
+                <div class="course-item">
+                    <div class="course-header">
+                        <div class="course-code">CS 320</div>
+                        <div class="course-title">Concepts of Programming Languages</div>
+                    </div>
+                    <p class="course-description">
+                        Exploration of programming language paradigms, syntax, semantics, and implementation techniques.
+                    </p>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/cas/courses/cas-cs-320/" class="course-link" target="_blank">Course Info</a>
+                    </div>
+                </div>
+
+                <div class="course-item">
+                    <div class="course-header">
+                        <div class="course-code">CS 330</div>
+                        <div class="course-title">Analysis of Algorithms</div>
+                    </div>
+                    <p class="course-description">
+                        Mathematical analysis of algorithm efficiency, complexity theory, and optimization techniques.
+                    </p>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/cas/courses/cas-cs-330/" class="course-link" target="_blank">Course Info</a>
+                    </div>
+                </div>
+
+                <div class="course-item has-project">
+                    <div class="course-header">
+                        <div class="course-code">CS 411</div>
+                        <div class="course-title">Software Engineering</div>
+                    </div>
+                    <p class="course-description">
+                        Software development lifecycle, project management, testing methodologies, and collaborative development practices.
+                    </p>
+                    <div class="course-project">
+                        <span class="project-indicator">• Project:</span>
+                        <span class="project-name">Book Management System</span>
+                    </div>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/cas/courses/cas-cs-411/" class="course-link" target="_blank">Course Info</a>
+                        <a href="https://github.com/michele-bilko/CS411-project" class="course-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="course-item has-project">
+                    <div class="course-header">
+                        <div class="course-code">CS 412</div>
+                        <div class="course-title">Full Stack Web Development</div>
+                    </div>
+                    <p class="course-description">
+                        End-to-end web application development using modern frameworks, databases, and deployment strategies.
+                    </p>
+                    <div class="course-project">
+                        <span class="project-indicator">• Projects:</span>
+                        <span class="project-name">CRG Route Tracker, Mini Facebook</span>
+                    </div>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/cas/courses/cas-cs-412/" class="course-link" target="_blank">Course Info</a>
+                        <a href="https://cs-webapps.bu.edu/mbilko/project/" class="course-link" target="_blank">CRG Tracker</a>
+                        <a href="https://cs-webapps.bu.edu/mbilko/mini_fb" class="course-link" target="_blank">Mini Facebook</a>
+                    </div>
+                </div>
+
+                <div class="course-item">
+                    <div class="course-header">
+                        <div class="course-code">CS 530</div>
+                        <div class="course-title">Advanced Algorithms</div>
+                    </div>
+                    <p class="course-description">
+                        Advanced algorithmic techniques including network flows, linear programming, and approximation algorithms.
+                    </p>
+                    <div class="course-links">
+                        <a href="https://www.bu.edu/academics/cas/courses/cas-cs-530/" class="course-link" target="_blank">Course Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <div class="terminal-title">contact.sh</div>
+                </div>
+                <div class="code-block" data-lang="bash">
+<span class="code-prompt">$</span> <span class="code-command">echo</span> <span class="code-string">"Let's connect!"</span>
+<span class="code-prompt">$</span> <span class="code-command">mailto</span> mbilko@bu.edu
+<span class="code-prompt">$</span> <span class="code-command">open</span> https://github.com/michele-bilko
+<span class="code-prompt">$</span> <span class="code-command">open</span> https://linkedin.com/in/michele-bilko-447852290
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:mbilko@bu.edu" class="contact-link">mbilko@bu.edu</a>
+                    <a href="https://github.com/michele-bilko" class="contact-link" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/michele-bilko-447852290" class="contact-link" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
